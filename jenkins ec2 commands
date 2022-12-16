@@ -1,0 +1,8 @@
+sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+yum install epel -release
+sudo amazon-linux-extras install epel
+amazon-linus-extras
+amazon-linus-extras install java-open jdk11
+yum install jenkins
+service jenkins status
